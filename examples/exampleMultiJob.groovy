@@ -1,4 +1,4 @@
-multibranchPipelineJob('example-project/example') {
+multibranchPipelineJob('example-project/example-multibranch-pipeline') {
     branchSources {
         git {
             id('jenkins-final-job') // IMPORTANT: use a constant and unique identifier
